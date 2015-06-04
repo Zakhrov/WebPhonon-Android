@@ -4,8 +4,7 @@ QT += qml quick widgets
 
 SOURCES += main.cpp
 
-RESOURCES += qml.qrc \
-    icons.qrc
+RESOURCES += qml.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
@@ -20,4 +19,13 @@ OTHER_FILES += \
     media-playback-start.png \
     media-playback-stop.png \
     media-skip-backward.png \
-    media-skip-forward.png
+    media-skip-forward.png \
+    android/AndroidManifest.xml \
+    android/res/drawable-hdpi/icon.png \
+    android/res/drawable-hdpi/logo.png \
+    android/res/drawable-ldpi/icon.png \
+    android/res/drawable-ldpi/logo.png \
+    android/res/drawable-mdpi/icon.png \
+    android/res/drawable-mdpi/logo.png
+
+ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android

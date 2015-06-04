@@ -77,37 +77,37 @@ ApplicationWindow {
             anchors.fill: parent
 
             ToolButton {
-                iconSource: "document-open.png"
+                iconSource: "qrc:////document-open.png"
                 action: fileOpen
 
             }
             ToolButton{
-                    iconSource: "media-skip-backward.png"
+                    iconSource: "qrc:////media-skip-backward.png"
                     action: skipBackward
             }
             ToolButton{
-                iconSource: "media-playback-start.png"
+                iconSource: "qrc:////media-playback-start.png"
                 action: mediaPlay
 
             }
             ToolButton{
-                iconSource: "media-playback-pause.png"
+                iconSource: "qrc:////media-playback-pause.png"
                 action: mediaPause
 
             }
             ToolButton{
-                iconSource: "media-playback-stop.png"
+                iconSource: "qrc:////media-playback-stop.png"
                 action: mediaStop
 
             }
             ToolButton{
-                iconSource: "media-skip-forward.png"
+                iconSource: "qrc:////media-skip-forward.png"
                 action: skipFoward
 
             }
 
             ToolButton {
-                iconSource: "application-exit.png"
+                iconSource: "qrc:////application-exit.png"
                 action: applicationExit
             }
 

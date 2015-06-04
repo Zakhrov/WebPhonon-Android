@@ -1,5 +1,12 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>application-exit.png</file>
+        <file>document-open.png</file>
+        <file>media-playback-pause.png</file>
+        <file>media-playback-start.png</file>
+        <file>media-playback-stop.png</file>
+        <file>media-skip-backward.png</file>
+        <file>media-skip-forward.png</file>
     </qresource>
 </RCC>
